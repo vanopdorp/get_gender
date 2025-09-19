@@ -14,7 +14,7 @@ def main(argv):
         vector.append(alfabet[t])
     conditions = ['<','>','<=','>=','==','!=']
     answer= (vector[0] + vector[1])* (vector[len(vector)-1])
-    drempel = 120
+    drempel = 110
     print(answer)
     if answer < drempel:
         print(f'{name} is a girl')
